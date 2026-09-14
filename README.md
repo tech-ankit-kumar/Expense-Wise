@@ -4,7 +4,7 @@
 
 ### Smart Personal Finance Manager built with Java Swing
 
-A modern desktop expense & income tracker designed to help users record transactions, monitor cash flow, manage budgets, analyze spending, and export financial data — all from a clean, responsive desktop interface.
+A modern desktop application for tracking income, expenses, recurring transactions, budgets, reports, and personal finance data — with a polished dashboard, multiple themes, multilingual support, and local data storage.
 
 <p>
   <img src="https://img.shields.io/badge/Java-8%2B-orange?style=for-the-badge&logo=openjdk" alt="Java 8+">
@@ -27,9 +27,11 @@ A modern desktop expense & income tracker designed to help users record transact
 
 ## 📌 About the Project
 
-**ExpenseWise** is a Java-based personal finance management application with a polished dashboard-style UI. It supports multiple user profiles, transaction management, recurring expenses, monthly budgets, reports/export, profile customization, multiple currencies, and multiple interface languages.
+**ExpenseWise** is a Java Swing-based personal finance manager designed for simple, offline-first money management.
 
-The application is designed as a lightweight **offline-first desktop finance tool**, storing its data locally on the user's computer rather than requiring an online database.
+It lets users manage income and expenses, monitor budgets, create recurring transactions, review reports, customize their profile, change the application language and appearance, and export financial data.
+
+The application stores its data locally on the user's computer, so no online database is required for normal use.
 
 ---
 
@@ -37,78 +39,63 @@ The application is designed as a lightweight **offline-first desktop finance too
 
 ### 📊 Dashboard
 - Total balance overview
-- Total income tracking
-- Total expense tracking
-- Current-month summary
-- Net financial position
+- Income and expense summaries
+- Current-month financial overview
 - Cash-flow visualization
 - Spending-by-category visualization
-- Recent transaction overview
+- Recent transactions
 - Monthly budget progress
-- Quick actions for adding income/expenses and exporting data
+- Quick actions for adding transactions and exporting data
 
 ### 💳 Transaction Management
 - Add income and expenses
-- Transaction date, description, category and amount
-- Expense categories such as:
-  - Food & Dining
-  - Travel
-  - Shopping
-  - Bills & Utilities
-  - Entertainment
-  - Health
-  - Education
-  - Others
-- Mark transactions as recurring
-- Edit existing transactions
+- Transaction date and amount
+- Description and category for expenses
+- Multiple expense categories
+- Edit transactions
 - Delete transactions
 - Undo recent deletion
-- Search and filter transactions
-- Filter by date range, month, category and transaction type
+- Search and filtering
+- Filter by date, month, category and transaction type
 
-### 🔁 Recurring Expenses
+### 🔁 Recurring Transactions
 - Create recurring monthly transactions
-- Automatically materialize recurring transactions when required
+- Automatically process recurring transactions when required
 - Edit recurring transactions
 - Delete recurring transactions
 
 ### 💰 Budget Management
 - Set a monthly spending limit
-- Track spending against the budget
-- Visual budget progress indicator
+- Track spending against the monthly budget
+- Visual budget progress
+- Budget status monitoring
 - Reset budget when required
 
 ### 📈 Reports & Export
-Export transaction data in multiple formats:
-
+Export financial data locally in:
 - 📄 PDF
 - 📊 Excel `.xlsx`
-- 📋 CSV
+- 🧾 CSV
 
-Exported files are generated locally through the application.
-
-### 🎨 Themes
-ExpenseWise includes three appearance modes:
-
+### 🎨 Appearance
+Choose between:
 - ☀️ Light
 - 🌙 Dark
 - 🌈 Gradient
 
-The selected theme is saved in the application's preferences.
+The selected appearance is saved in the application's preferences.
 
-### 🌍 Multi-language UI
-The interface includes translations for:
-
-- English
-- Hindi
-- Spanish
-- French
-- German
-- Japanese
+### 🌍 Languages
+The application includes:
+- 🇬🇧 English
+- 🇮🇳 Hindi
+- 🇪🇸 Spanish
+- 🇫🇷 French
+- 🇩🇪 German
+- 🇯🇵 Japanese
 
 ### 💱 Currency Support
-Supported currency symbols include:
-
+Includes commonly used currency symbols such as:
 - ₹ Indian Rupee
 - $ US Dollar
 - € Euro
@@ -118,33 +105,85 @@ Supported currency symbols include:
 ### 👤 User Profiles
 - Create user profiles
 - Login/logout
-- Remember user option
+- Remember-user option
 - Email and phone profile information
 - Profile photo support
 - Edit profile
 - Password change/reset flow
 - Account deletion option
 
-### 📱 Responsive Desktop Layout
-The interface adapts its sidebar/navigation for smaller desktop window sizes and provides a collapsible navigation experience.
+### 🖥️ Desktop UI
+- Dashboard-style interface
+- Sidebar navigation
+- Responsive/collapsible navigation behavior
+- Theme-aware interface
+- Profile and settings customization
 
 ---
 
 ## 🖥️ Screenshots
 
-### 🔐 Login Screen
+All screenshots are stored in [`docs/screenshots/`](docs/screenshots/).
+
+### 🔐 1. Login
 
 <p align="center">
-  <img src="docs/screenshots/login.png" alt="ExpenseWise Login Screen" width="850">
+  <img src="docs/screenshots/01-login.png" alt="ExpenseWise Login Screen" width="850">
 </p>
 
-### 📊 Dashboard
+### ☀️ 2. Dashboard — Light Theme
 
 <p align="center">
-  <img src="docs/screenshots/dashboard.png" alt="ExpenseWise Dashboard" width="1000">
+  <img src="docs/screenshots/02-dashboard-light.png" alt="ExpenseWise Light Dashboard" width="1000">
 </p>
 
-> **Tip:** Add more screenshots to `docs/screenshots/` as the project grows, for example Transactions, Reports, Settings and Dark/Gradient themes.
+### 🌙 3. Dashboard — Dark Theme
+
+<p align="center">
+  <img src="docs/screenshots/03-dashboard-dark.png" alt="ExpenseWise Dark Dashboard" width="1000">
+</p>
+
+### ➕ 4. Add Transaction
+
+<p align="center">
+  <img src="docs/screenshots/04-add-transaction.png" alt="ExpenseWise Add Transaction Screen" width="1000">
+</p>
+
+### 💳 5. Transactions
+
+<p align="center">
+  <img src="docs/screenshots/05-transactions.png" alt="ExpenseWise Transactions Screen" width="1000">
+</p>
+
+### 🔁 6. Recurring Transactions
+
+<p align="center">
+  <img src="docs/screenshots/06-recurring.png" alt="ExpenseWise Recurring Transactions Screen" width="1000">
+</p>
+
+### 📈 7. Reports
+
+<p align="center">
+  <img src="docs/screenshots/07-reports.png" alt="ExpenseWise Reports Screen" width="1000">
+</p>
+
+### ⚙️ 8. Settings
+
+<p align="center">
+  <img src="docs/screenshots/08-settings.png" alt="ExpenseWise Settings Screen" width="1000">
+</p>
+
+### 📅 9. Calendar
+
+<p align="center">
+  <img src="docs/screenshots/09-calendar.png" alt="ExpenseWise Calendar Screen" width="1000">
+</p>
+
+### 👤 10. Edit Profile
+
+<p align="center">
+  <img src="docs/screenshots/10-edit-profile.png" alt="ExpenseWise Edit Profile Screen" width="1000">
+</p>
 
 ---
 
@@ -154,15 +193,15 @@ The interface adapts its sidebar/navigation for smaller desktop window sizes and
 |---|---|
 | **Java 8+** | Core programming language |
 | **Java Swing** | Desktop graphical user interface |
-| **Java AWT** | UI drawing, events and responsive behavior |
-| **Java NIO** | Local file-based data persistence |
-| **Java ZIP APIs** | XLSX generation and archive handling |
+| **Java AWT** | UI drawing, events and desktop interaction |
+| **Java NIO** | Local file handling and persistence |
+| **Java ZIP APIs** | XLSX generation |
 | **Java ImageIO** | Profile image handling |
 | **Java Security APIs** | Password hashing |
 
 ### Dependencies
 
-The project is intentionally lightweight and does **not require a third-party dependency manager** for the core application. It uses Java's standard libraries.
+The project uses Java's standard libraries and does not require a third-party dependency manager for the core application.
 
 ---
 
@@ -170,7 +209,7 @@ The project is intentionally lightweight and does **not require a third-party de
 
 ### Prerequisites
 
-Install **Java 8 or newer** and make sure Java is available from the terminal.
+Install **Java 8 or newer** and make sure both `java` and `javac` are available in your terminal.
 
 Check your installation:
 
@@ -179,116 +218,46 @@ java -version
 javac -version
 ```
 
-<<<<<<< HEAD
 ### ▶️ Run on Windows
 
-The project includes a `run.bat` launcher.
+The repository includes a ready-to-use `run.bat` launcher.
 
-**Option 1 — Double-click:**
+#### Option 1 — Double-click
+
+Open the project folder and double-click:
 
 ```text
 run.bat
 ```
 
-**Option 2 — Terminal:**
+The script compiles `ExpenseWise.java` and starts the application.
 
-```bash
-java -cp . ExpenseWise
-```
+#### Option 2 — Terminal
 
-### 🧱 Compile manually
-
-If the `.class` files are not present, compile the source first:
-
-```bash
-javac ExpenseWise.java
-```
-
-Then run:
-
-```bash
-=======
-### Run with Windows batch file
+From the project directory:
 
 ```bat
 run.bat
 ```
 
-### Or compile manually
+### 🧱 Compile and Run Manually
 
 ```bash
 javac ExpenseWise.java
->>>>>>> 3eb4aa2 (Add professional README with screenshots)
 java ExpenseWise
 ```
 
 ---
 
-<<<<<<< HEAD
 ## 📁 Project Structure
 
 ```text
 Expense-Wise/
 │
-├── ExpenseWise.java       # Main application source
-├── run.bat                # Windows launcher
-├── README.md              # Project documentation
-├── .gitignore             # Git ignored files
-│
-└── docs/
-    └── screenshots/
-        ├── login.png
-        └── dashboard.png
-```
-
-> Compiled `.class` files, crash logs and ZIP archives should remain ignored by Git through `.gitignore`.
-
----
-
-## 💾 Local Data Storage
-
-ExpenseWise stores application data locally under the user's home directory:
-
-```text
-~/.expensewise/
-```
-
-The application maintains local files for transaction data, users, preferences, budgets, profile details and profile photos.
-
-This means the application can work without an online backend or cloud database.
-
----
-
-## 🔐 Privacy & Security Notes
-
-- Financial data is stored locally by the application.
-- Passwords are processed using a hashing mechanism before being stored.
-- No cloud database is required for normal application use.
-- Avoid committing generated personal data or local application files to GitHub.
-- Keep `.gitignore` enabled to prevent compiled files, logs and archives from being uploaded.
-
-> **Production note:** For a real-world multi-user/cloud deployment, password storage should use a modern password-specific hashing algorithm such as Argon2id, bcrypt or scrypt, together with proper salting, rate limiting and secure secret management.
-
----
-
-## 📤 Export Options
-
-ExpenseWise provides local export functionality for the currently selected transaction data:
-
-```text
-PDF   → Printable/report-friendly document
-XLSX  → Spreadsheet-compatible workbook
-CSV   → Lightweight tabular data
-=======
-# 📁 Project Structure
-
-```text
-Expense Wise/
-│
 ├── ExpenseWise.java
 ├── run.bat
-├── .gitignore
 ├── README.md
+├── .gitignore
 │
 └── docs/
     └── screenshots/
@@ -302,98 +271,81 @@ Expense Wise/
         ├── 08-settings.png
         ├── 09-calendar.png
         └── 10-edit-profile.png
->>>>>>> 3eb4aa2 (Add professional README with screenshots)
 ```
 
 ---
 
-<<<<<<< HEAD
+## 💾 Data Storage
+
+ExpenseWise is designed as an **offline-first desktop application**.
+
+Application data is stored locally under:
+
+```text
+~/.expensewise/
+```
+
+The application can maintain local transaction data, user information, preferences, budgets, profile details and profile images without requiring an online backend.
+
+---
+
+## 🔐 Privacy & Security
+
+- Financial data is stored locally by the application.
+- Passwords are processed using a hashing mechanism before storage.
+- Normal application operation does not require a cloud database.
+- Avoid committing personal/generated application data to the repository.
+- Keep `.gitignore` enabled for generated files.
+
+> **Production note:** For a real-world production system, use a password-specific hashing algorithm such as Argon2id, bcrypt or scrypt with proper salting, rate limiting and secure secret management.
+
+---
+
+## 📤 Export Options
+
+| Format | Purpose |
+|---|---|
+| 📄 **PDF** | Printable and shareable reports |
+| 📊 **Excel (.xlsx)** | Spreadsheet analysis |
+| 🧾 **CSV** | Lightweight tabular data |
+
+Exports are generated locally by the application.
+
+---
+
 ## 🎯 Use Cases
 
 ExpenseWise can be useful for:
 
 - Personal expense tracking
-- Monthly budget management
-- Student finance tracking
+- Student finance management
+- Monthly budget planning
 - Household spending records
-- Small personal financial reports
+- Personal financial reports
 - Learning Java Swing and desktop application development
 
 ---
 
 ## 🔮 Future Improvements
 
-Possible next upgrades:
+Possible future upgrades include:
 
-- Cloud backup and synchronization
-- PostgreSQL/MySQL database support
-- Mobile companion app
-- Advanced analytics and charts
-- Custom categories
-- Receipt image attachments
-- Automatic backup/restore
-- PIN/biometric desktop lock
-- Scheduled recurring transactions
-- More export templates
-- Financial goals and savings tracking
+- ☁️ Cloud backup and synchronization
+- 🗄️ MySQL/PostgreSQL database support
+- 📱 Mobile companion application
+- 📊 More advanced financial analytics
+- 🧾 Receipt image attachments
+- 💾 Automatic backup and restore
+- 🔒 Encrypted local storage
+- 🔔 Budget notifications
+- 📥 Data import functionality
+- 🎯 Savings goals and financial planning
 
 ---
 
 ## 🤝 Contributing
 
 Contributions, ideas and improvements are welcome.
-=======
-# 💾 Data & Privacy
-
-ExpenseWise is designed as an **offline-first desktop application**.
-
-- Data is stored locally.
-- No external database is required.
-- Normal operation does not require internet access.
-- User data is separated by profile.
-- Passwords use SHA-256 hashing.
-
-# 📤 Export Formats
-
-| Format | Purpose |
-|---|---|
-| 📊 **Excel (.xlsx)** | Spreadsheet analysis |
-| 📄 **PDF** | Printing and sharing |
-| 🧾 **CSV** | Data processing and backup |
-
-# 🌍 Customization
-
-- ☀️ Light theme
-- 🌙 Dark theme
-- 🌈 Gradient theme
-- 🌐 6 languages
-- 💱 Multiple currency symbols
-- 👤 Custom profile picture
-
-# 🔮 Future Improvements
-
-- Cloud backup
-- Automatic database backup
-- Mobile companion app
-- Advanced financial analytics
-- Custom report templates
-- More currencies and languages
-- Encrypted local storage
-- Budget notifications
-- Data import functionality
-
-# 🤝 Contributing
->>>>>>> 3eb4aa2 (Add professional README with screenshots)
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Commit your changes
-5. Push the branch
-6. Open a Pull Request
-
-<<<<<<< HEAD
-Example:
 
 ```bash
 git checkout -b feature/my-improvement
@@ -402,25 +354,15 @@ git commit -m "Add my improvement"
 git push origin feature/my-improvement
 ```
 
+Then open a Pull Request on GitHub.
+
 ---
 
 ## 📄 License
 
-This project currently does not specify a license. If you plan to distribute or accept contributions publicly, add an appropriate license file such as `MIT License`.
+This project is currently intended for **personal / educational use**.
 
 ---
-
-<div align="center">
-
-### 💰 ExpenseWise — Track. Analyze. Manage.
-
-Built with ❤️ using Java Swing.
-
-</div>
-=======
-# 📄 License
-
-This project is currently intended for **personal / educational use**.
 
 ## 👨‍💻 Author
 
@@ -430,7 +372,10 @@ Built with ❤️ using **Java Swing**.
 
 ---
 
-<p align="center">
-  ⭐ If you find ExpenseWise useful, consider giving the repository a star!
-</p>
->>>>>>> 3eb4aa2 (Add professional README with screenshots)
+<div align="center">
+
+### 💰 ExpenseWise — Track. Analyze. Manage.
+
+⭐ If you find ExpenseWise useful, consider giving the repository a star!
+
+</div>

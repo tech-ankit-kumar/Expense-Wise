@@ -179,6 +179,7 @@ java -version
 javac -version
 ```
 
+<<<<<<< HEAD
 ### ▶️ Run on Windows
 
 The project includes a `run.bat` launcher.
@@ -206,11 +207,24 @@ javac ExpenseWise.java
 Then run:
 
 ```bash
+=======
+### Run with Windows batch file
+
+```bat
+run.bat
+```
+
+### Or compile manually
+
+```bash
+javac ExpenseWise.java
+>>>>>>> 3eb4aa2 (Add professional README with screenshots)
 java ExpenseWise
 ```
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Project Structure
 
 ```text
@@ -265,10 +279,35 @@ ExpenseWise provides local export functionality for the currently selected trans
 PDF   → Printable/report-friendly document
 XLSX  → Spreadsheet-compatible workbook
 CSV   → Lightweight tabular data
+=======
+# 📁 Project Structure
+
+```text
+Expense Wise/
+│
+├── ExpenseWise.java
+├── run.bat
+├── .gitignore
+├── README.md
+│
+└── docs/
+    └── screenshots/
+        ├── 01-login.png
+        ├── 02-dashboard-light.png
+        ├── 03-dashboard-dark.png
+        ├── 04-add-transaction.png
+        ├── 05-transactions.png
+        ├── 06-recurring.png
+        ├── 07-reports.png
+        ├── 08-settings.png
+        ├── 09-calendar.png
+        └── 10-edit-profile.png
+>>>>>>> 3eb4aa2 (Add professional README with screenshots)
 ```
 
 ---
 
+<<<<<<< HEAD
 ## 🎯 Use Cases
 
 ExpenseWise can be useful for:
@@ -303,6 +342,48 @@ Possible next upgrades:
 ## 🤝 Contributing
 
 Contributions, ideas and improvements are welcome.
+=======
+# 💾 Data & Privacy
+
+ExpenseWise is designed as an **offline-first desktop application**.
+
+- Data is stored locally.
+- No external database is required.
+- Normal operation does not require internet access.
+- User data is separated by profile.
+- Passwords use SHA-256 hashing.
+
+# 📤 Export Formats
+
+| Format | Purpose |
+|---|---|
+| 📊 **Excel (.xlsx)** | Spreadsheet analysis |
+| 📄 **PDF** | Printing and sharing |
+| 🧾 **CSV** | Data processing and backup |
+
+# 🌍 Customization
+
+- ☀️ Light theme
+- 🌙 Dark theme
+- 🌈 Gradient theme
+- 🌐 6 languages
+- 💱 Multiple currency symbols
+- 👤 Custom profile picture
+
+# 🔮 Future Improvements
+
+- Cloud backup
+- Automatic database backup
+- Mobile companion app
+- Advanced financial analytics
+- Custom report templates
+- More currencies and languages
+- Encrypted local storage
+- Budget notifications
+- Data import functionality
+
+# 🤝 Contributing
+>>>>>>> 3eb4aa2 (Add professional README with screenshots)
 
 1. Fork the repository
 2. Create a feature branch
@@ -311,6 +392,7 @@ Contributions, ideas and improvements are welcome.
 5. Push the branch
 6. Open a Pull Request
 
+<<<<<<< HEAD
 Example:
 
 ```bash
@@ -335,3 +417,20 @@ This project currently does not specify a license. If you plan to distribute or 
 Built with ❤️ using Java Swing.
 
 </div>
+=======
+# 📄 License
+
+This project is currently intended for **personal / educational use**.
+
+## 👨‍💻 Author
+
+**Ankit Kumar**
+
+Built with ❤️ using **Java Swing**.
+
+---
+
+<p align="center">
+  ⭐ If you find ExpenseWise useful, consider giving the repository a star!
+</p>
+>>>>>>> 3eb4aa2 (Add professional README with screenshots)

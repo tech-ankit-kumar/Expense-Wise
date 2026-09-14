@@ -1,0 +1,17 @@
+# Java compiled files
+*.class
+
+# Java crash/debug logs
+hs_err_pid*.log
+replay_pid*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
